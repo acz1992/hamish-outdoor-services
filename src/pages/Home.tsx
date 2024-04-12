@@ -5,10 +5,12 @@ import Footer from "../components/Footer";
 import PastWork from "../sections/PastWork";
 import Testimonials from "../sections/Testimonials";
 import Services from "../sections/Services";
+import Navigation from "../components/Navigation";
 
 const Home = () => {
 	return (
 		<>
+			<Navigation />
 			<HeroSection />
 			<AboutMe />
 			<Services />

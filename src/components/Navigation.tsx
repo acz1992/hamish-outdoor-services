@@ -27,8 +27,8 @@ const Navigation: React.FC = () => {
 			<div className="flex flex-row justify-between items-center py-2">
 				<div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
 					<HashLink smooth to="/#hero">
-						<h1 className="font-extrabold text-4xl text-blue-900">
-							mld
+						<h1 className="font-extrabold text-left text-2xl text-green-800">
+							Hamish's Outdoor Services
 						</h1>
 					</HashLink>
 				</div>
