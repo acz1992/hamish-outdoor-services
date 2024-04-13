@@ -35,7 +35,7 @@ const servicesData = [
 
 const Services = () => {
 	return (
-		<div id="services" className="bg-green-600 py-12">
+		<div id="services" className="services py-12">
 			<section data-aos="zoom-in-down">
 				<div className="my-4 py-4">
 					<h2 className="my-2 text-center text-3xl text-white uppercase font-bold">

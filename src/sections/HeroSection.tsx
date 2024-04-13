@@ -19,7 +19,7 @@ const HeroSection = () => {
 						className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left"
 					>
 						<div
-							className="lg:w-1/2 flex flex-col justify-center "
+							className="hero-text lg:w-1/2 flex flex-col justify-center "
 							data-aos="zoom-in"
 							data-aos-delay="200"
 						>
