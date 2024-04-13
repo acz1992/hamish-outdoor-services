@@ -9,3 +9,8 @@ intro = AboutMe
 Services - Services
 Producrs - PAstWork
 clients - testimonials
+
+Services - replace picture space with React Icon:
+ie tree for chopping tree, saw for carpentry, flower for gardening etc
+
+move picture from Services to Past Work
