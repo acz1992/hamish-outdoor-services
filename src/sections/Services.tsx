@@ -1,35 +1,61 @@
-// Services.tsx
-import React from "react";
 import ServiceCard from "../components/ServiceCard";
-/* import img from "../assets/services/xxx.xx";
-import img2 from "../assets/services/xxx.xx";
-import img3 from "../assets/services/xxx.xx";
-import img4 from "../assets/services/xxx.xx"; */
+import { GiGardeningShears } from "react-icons/gi";
+import { IoFlowerSharp } from "react-icons/io5";
+import { FaTree } from "react-icons/fa";
+import { TbFence } from "react-icons/tb";
+import { FaLeaf } from "react-icons/fa";
+import { GiSteamBlast } from "react-icons/gi";
+import { GiEcology } from "react-icons/gi";
+import { GiWoodPile } from "react-icons/gi";
 
 const servicesData = [
 	{
-		/* img: img, */
-		title: "Service One",
-		description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.",
+		icon: <GiGardeningShears />,
+		title: "General Gardening",
+		/* description:
+			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 	{
-		/* img: img2, */
-		title: "Service Two",
-		description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.",
+		icon: <IoFlowerSharp />,
+		title: "Landscaping",
+		/* description:
+			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 	{
-		/* img: img3, */
-		title: "Service Three",
-		description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.",
+		icon: <FaTree />,
+		title: "Tree Removal",
+		/* description:
+			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 	{
-		/* img: img4, */
-		title: "Service Four",
-		description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.",
+		icon: <TbFence />,
+		title: "Fence Repair",
+		/* description:
+			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
+	},
+	{
+		icon: <FaLeaf />,
+		title: "Hedge Trimming",
+		/* description:
+			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
+	},
+	{
+		icon: <GiSteamBlast />,
+		title: "Sandblasting",
+		/* description:
+			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
+	},
+	{
+		icon: <GiEcology />,
+		title: "Compost Delivery",
+		/* description:
+			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
+	},
+	{
+		icon: <GiWoodPile />,
+		title: "Kiln Dried Logs",
+		/* description:
+			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 ];
 
@@ -51,7 +77,7 @@ const Services = () => {
 				</div>
 
 				<div
-					className="px-12"
+					className="px-12 "
 					data-aos="fade-down"
 					data-aos-delay="600"
 				>
@@ -59,9 +85,9 @@ const Services = () => {
 						{servicesData.map((service, index) => (
 							<ServiceCard
 								key={index}
-								/* img={service.img} */
+								icon={service.icon}
 								title={service.title}
-								description={service.description}
+								/* description={service.description} */
 							/>
 						))}
 					</div>
