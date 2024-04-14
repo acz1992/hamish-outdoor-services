@@ -1,4 +1,3 @@
-import React from "react";
 import PastWorkExample from "../components/PastWorkExample";
 /* import img from "../assets/services/xxx.xx";
 import img2 from "../assets/services/xxx.xx";
