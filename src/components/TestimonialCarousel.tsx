@@ -69,11 +69,9 @@ const TestimonialCarousel = () => {
 				<iframe
 					key={index}
 					src={url}
-					className="w-full md:w-1/2" // Set iframe width to 100%
+					className="w-full md:w-1/2"
 					height="185"
-					style={{
-						border: "1px solid #e5e7eb",
-					}}
+					/* style={{}} */
 					scrolling="no"
 					frameBorder="0"
 					allowFullScreen={true}
