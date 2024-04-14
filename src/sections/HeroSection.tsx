@@ -7,13 +7,13 @@ const HeroSection = () => {
 		<>
 			<div className="relative heroSection" id="hero-section">
 				<div
-					className="absolute inset-0 bg-green-500 transform -skew-y-12"
+					className="absolute inset-0   bg-primaryGreen transform -skew-y-12"
 					style={{
 						clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 80%)",
 					}}
 				></div>
 				<div
-					className="absolute inset-0 bg-green-500 transform skew-y-12"
+					className="absolute inset-0  bg-secondaryGreen transform skew-y-12"
 					style={{
 						clipPath: "polygon(0 0, 100% 20%, 100% 100%, 0% 100%)",
 					}}
@@ -43,11 +43,11 @@ const HeroSection = () => {
 							/>
 							{/* Hero Text */}
 							<div className="hero-text px-4 md:px-0 self-center	">
-								<h1 className="mb-5 md:text-5xl text-3xl font-bold text-black">
+								<h1 className="mb-5 my-6 md:my-0 md:text-5xl text-3xl font-bold text-lightText">
 									Suspendisse faucibus interdum posuere lorem
 									ipsum dolor sit
 								</h1>
-								<div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">
+								<div className="text-xl font-semibold tracking-tight mb-5 text-zinc-100">
 									Mollis nunc sed id semper risus in hendrerit
 									gravida rutrum quisque non tellus orci ac
 									auctor augue
@@ -55,7 +55,7 @@ const HeroSection = () => {
 								<div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
 									<Link
 										to="/contact"
-										className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
+										className="text-white button-one   inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
 									>
 										Find out more
 										<svg

@@ -1,11 +1,13 @@
-import React from "react";
 /* import img from "../images/Web-developer.svg"; */
 import { Link } from "react-router-dom";
 
 const AboutMe = () => {
 	return (
 		<>
-			<div className="m-auto max-w-6xl p-2 md:p-12 h-5/6" id="about">
+			<div
+				className="m-auto my-10 max-w-6xl p-2 md:p-12 h-5/6"
+				id="about"
+			>
 				<div
 					className="flex flex-col-reverse lg:flex-row d:mb-8 lg:py-8 justify-between lg:text-left"
 					data-aos="fade-up"
@@ -25,12 +27,12 @@ const AboutMe = () => {
 						data-aos="zoom-in"
 						data-aos-delay="500"
 					>
-						<h3 className="text-3xl text-blue-900 font-bold">
+						<h3 className="text-3xl text-primaryGreen font-bold">
 							Orci eu lobortis elementum nibh tellus molestie nunc
 							non blandit massa enim nec dui
 						</h3>
 						<div>
-							<p className="my-3 text-xl text-gray-600 font-semibold">
+							<p className="my-3 text-xl text-main font-semibold">
 								Pretium vulputate sapien nec sagittis aliquam
 								malesuada bibendum arcu vitae elementum
 								curabitur vitae nunc sed velit dignissim sodales
@@ -38,7 +40,7 @@ const AboutMe = () => {
 							</p>
 						</div>
 						<div>
-							<p className="my-3 text-xl text-gray-600 font-semibold">
+							<p className="my-3 text-xl text-main font-semibold">
 								Amet mattis vulputate enim nulla aliquet
 								porttitor lacus luctus accumsan tortor posuere
 								ac ut consequat semper viverra nam libero
@@ -46,7 +48,7 @@ const AboutMe = () => {
 						</div>
 						<Link
 							to="/contact"
-							className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group"
+							className="button-one text-white inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group"
 						>
 							Get in touch
 							<svg

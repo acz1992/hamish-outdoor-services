@@ -30,8 +30,8 @@ const Navigation: React.FC = () => {
 				!top && "shadow-lg"
 			}`}
 		>
-			<div className="flex flex-row bg-lightText justify-between items-center py-2">
-				<div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center ">
+			<div className="flex flex-row bg-white justify-between items-center py-2">
+				<div className="flex flex-row justify-center px-4 md:px-12 md:mx-12 items-center text-center ">
 					{showHashLink && (
 						<HashLink
 							smooth
@@ -73,7 +73,7 @@ const Navigation: React.FC = () => {
 						<NavLinks />
 					</div>
 					<div
-						className={`bg-lightText fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14  ${
+						className={`bg-white fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto  p-24 lg:hidden shadow-xl top-14  ${
 							isOpen ? "block" : "hidden"
 						}`}
 					>

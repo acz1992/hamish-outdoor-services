@@ -13,7 +13,7 @@ const NavLinks: React.FC = () => {
 		{ text: "Services", to: "/#services", smooth: true },
 		{ text: "Past Work", to: "/#past-work", smooth: true },
 		{ text: "Testimonials", to: "/#testimonials", smooth: true },
-		{ text: "Contact Me", to: "/contact#contact" },
+		{ text: "Contact Me", to: "/#contact", smooth: true },
 	];
 
 	return (
@@ -21,7 +21,7 @@ const NavLinks: React.FC = () => {
 			{links.map(({ text, to, smooth }) => (
 				<HashLink
 					key={to}
-					className="px-4 bg-lightText font-bold  hover:text-green-500"
+					className="px-4 bg-white font-bold  hover:text-gray-500"
 					smooth={smooth}
 					to={to}
 				>

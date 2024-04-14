@@ -1,11 +1,14 @@
 const Contact = () => {
 	return (
-		<div className="w-full flex items-center justify-center text-white contact-me">
+		<div
+			className="w-full flex items-center justify-center text-white contact-me"
+			id="contact"
+		>
 			<div className="mx-8 w-full h-96 text-center lg:text-left py-16 px-12 flex lg:justify-between items-center">
 				<div className="w-full flex flex-col lg:flex-row lg:justify-around">
 					<div className="mb-4">
 						<p className="text-2xl md:text-4xl font-bold mb-4">
-							Are you ready to scale your business?
+							Do you have something that needs doing?
 						</p>
 						<p className="text-lg md:text-2xl">
 							No job is too big or small. Lets work out a solution{" "}
@@ -16,7 +19,7 @@ const Contact = () => {
 					<div className="w-full lg:w-72 pt-6 lg:mx-12">
 						<a
 							href="mailto:hamish321hunter@gmail.com?subject=Enquiry%20for%20Services"
-							className="bg-transparent border hover:bg-blue-900 hover:border-blue-800 text-white justify-center text-center rounded-lg px-10 py-3 flex items-center group"
+							className="bg-transparent border hover:bg-primaryGreen hover:border-primaryGreen text-white justify-center text-center rounded-lg px-10 py-3 flex items-center group"
 						>
 							Send an email
 							<svg

@@ -5,7 +5,7 @@ import PastWork from "../sections/PastWork";
 import Testimonials from "../sections/Testimonials";
 import Services from "../sections/Services";
 import Navigation from "../components/Navigation";
-import Contact from "../components/Contact";
+import Contact from "../sections/Contact";
 
 const Home = () => {
 	return (

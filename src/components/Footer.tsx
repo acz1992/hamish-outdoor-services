@@ -6,22 +6,22 @@ const Footer: React.FC = () => {
 	return (
 		<>
 			<footer>
-				<div className="footer max-w-full px-4 sm:px-6 bg-gray-100 border-t border-b py-30">
+				<div className="footer max-w-full px-4 sm:px-6 bg-primaryGreen border-t border-b py-30 text-white">
 					{/* Top area: Blocks */}
 					<div className="flex justify-around py-2 md:py-4 border-t border-gray-200 ">
 						{/* Links block */}
-						<div className=" ">
-							<h6 className="text-[#013289] text-xl font-bold ">
+						<div className="px-4">
+							<h6 className="text-white text-xl font-bold ">
 								LINKS
 							</h6>
 							<div className="flex justify-center">
-								<div className="w-9 border-b-2 border-blue-900 mb-4"></div>
+								<div className="w-9 border-b-2 border-white mb-4"></div>
 							</div>
-							<ul className="text-md">
+							<ul className="text-md ">
 								<li className="mb-2">
 									<HashLink
 										to="#"
-										className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+										className=" hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
 									>
 										About
 									</HashLink>
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
 								<li className="mb-2">
 									<HashLink
 										to="#"
-										className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+										className="text-white hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
 									>
 										Services
 									</HashLink>
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
 								<li className="mb-2">
 									<HashLink
 										to="#"
-										className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+										className="text-white hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
 									>
 										Contact
 									</HashLink>
@@ -46,10 +46,10 @@ const Footer: React.FC = () => {
 						</div>
 
 						{/* Social Media block */}
-						<div className="text-center  font-bold uppercase text-blue-900">
+						<div className="text-center  font-bold uppercase text-white">
 							<div className="text-xl ">Social Media Links.</div>
 							<div className="flex justify-center">
-								<div className="w-24 border-b-2 border-blue-900 mb-4"></div>
+								<div className="w-24 border-b-2 border-white mb-4"></div>
 							</div>
 
 							<div className="text-md font-medium mb-4">
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
 											aria-label="Facebook"
 										>
 											<svg
-												className="w-8 h-8 fill-current"
+												className="w-8 h-8 fill-primaryGreen"
 												viewBox="0 0 32 32"
 												xmlns="http://www.w3.org/2000/svg"
 											>

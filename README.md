@@ -10,6 +10,8 @@ Services - Services
 Producrs - PAstWork
 clients - testimonials
 
+Fix - Naivgation bug that doesnt let one close menu when clicked
+
 Services - replace picture space with React Icon:
 ie tree for chopping tree, saw for carpentry, flower for gardening etc
 

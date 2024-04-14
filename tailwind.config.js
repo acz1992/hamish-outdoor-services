@@ -4,11 +4,18 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#166534",
-				secondary: "",
+				primaryGreen: "#166534",
+				secondaryGreen: "#8FB339",
 				background: "#20BF55",
+
+				titleTwo: "white",
+
 				lightText: "#F7FFF7",
 				darkText: "#0B1215",
+
+				main: "black",
+
+				white: "#F8F8FF",
 			},
 		},
 	},
