@@ -11,9 +11,12 @@ const Footer: React.FC = () => {
 					<div className="flex justify-around py-2 md:py-4 border-t border-gray-200 ">
 						{/* Links block */}
 						<div className=" ">
-							<h6 className="text-[#013289] text-xl font-bold mb-4">
+							<h6 className="text-[#013289] text-xl font-bold ">
 								LINKS
 							</h6>
+							<div className="flex justify-center">
+								<div className="w-9 border-b-2 border-blue-900 mb-4"></div>
+							</div>
 							<ul className="text-md">
 								<li className="mb-2">
 									<HashLink
@@ -44,11 +47,12 @@ const Footer: React.FC = () => {
 
 						{/* Social Media block */}
 						<div className="text-center  font-bold uppercase text-blue-900">
-							<div className="text-xl mb-6">
-								Social Media Links.
+							<div className="text-xl ">Social Media Links.</div>
+							<div className="flex justify-center">
+								<div className="w-24 border-b-2 border-blue-900 mb-4"></div>
 							</div>
 
-							<div className="text-md font-medium mb-6">
+							<div className="text-md font-medium mb-4">
 								Follow us on social media.
 							</div>
 							<div className="mx-auto text-center mt-2">

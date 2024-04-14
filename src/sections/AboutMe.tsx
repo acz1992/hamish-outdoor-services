@@ -7,7 +7,7 @@ const AboutMe = () => {
 		<>
 			<div className="m-auto max-w-6xl p-2 md:p-12 h-5/6" id="about">
 				<div
-					className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left"
+					className="flex flex-col-reverse lg:flex-row d:mb-8 lg:py-8 justify-between lg:text-left"
 					data-aos="fade-up"
 				>
 					<div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
@@ -48,7 +48,7 @@ const AboutMe = () => {
 							to="/contact"
 							className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group"
 						>
-							Contact Me
+							Get in touch
 							<svg
 								className="w-4 h-4 ml-1 group-hover:translate-x-2"
 								xmlns="http://www.w3.org/2000/svg"
