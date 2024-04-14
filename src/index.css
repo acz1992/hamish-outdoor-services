@@ -9,10 +9,6 @@ body {
 	font-family: "Lato", sans-serif;
 }
 
-.button-one {
-	@apply bg-primaryGreen;
-}
-
 .header {
 	background: rgb(22, 101, 52);
 	/* background: linear-gradient(
@@ -22,6 +18,11 @@ body {
 		rgba(101, 184, 145, 1) 100%,
 		rgba(20, 204, 96, 1) 6534%
 	); */
+}
+
+.testimonial-carousel .react-multi-carousel-item {
+	display: flex;
+	justify-content: center;
 }
 
 @layer base {
