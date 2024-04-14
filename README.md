@@ -2,17 +2,11 @@ React Router Hash Link
 https://www.npmjs.com/package/react-router-hash-link
 React Router's issue of not scrolling to #hash-fragments when using the <Link> component to navigate.
 
+Testimonials:
+
+-   Populate either manually, or look at package allowing facebook reviews to appear
+
+About me Picture:
+-Try and find slideshow component
+
 https://github.com/Silver2er0/MLD-B2B/blob/main/src/components/Portfolio.js
-
-Do Home page - hero = HeroSection
-intro = AboutMe
-Services - Services
-Producrs - PAstWork
-clients - testimonials
-
-Fix - Naivgation bug that doesnt let one close menu when clicked
-
-Services - replace picture space with React Icon:
-ie tree for chopping tree, saw for carpentry, flower for gardening etc
-
-move picture from Services to Past Work

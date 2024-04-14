@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
 								<li className="mb-2">
 									<HashLink
 										to="#"
-										className=" hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+										className=" hover:text-gray-900  transition duration-250 ease-in-out"
 									>
 										About
 									</HashLink>
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
 								<li className="mb-2">
 									<HashLink
 										to="#"
-										className="text-white hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+										className="text-white hover:text-gray-900  transition duration-250 ease-in-out"
 									>
 										Services
 									</HashLink>
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
 								<li className="mb-2">
 									<HashLink
 										to="#"
-										className="text-white hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+										className="text-white hover:text-gray-900 transition duration-250 ease-in-out"
 									>
 										Contact
 									</HashLink>
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
 											aria-label="Facebook"
 										>
 											<svg
-												className="w-8 h-8 fill-primaryGreen"
+												className="w-8 h-8 fill-primaryGreen hover:bg-gray-900 hover:rounded-full"
 												viewBox="0 0 32 32"
 												xmlns="http://www.w3.org/2000/svg"
 											>
