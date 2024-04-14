@@ -1,6 +1,7 @@
 import { HashLink } from "react-router-hash-link";
-import HamishWorking from "../assets/aboutMeSection/hamish-working.png";
-
+import AboutMeGallery from "../components/AboutMeGallery";
+/* import HamishWorking from "../assets/aboutMeSection/hamish-working.png";
+ */
 const AboutMe = () => {
 	return (
 		<>
@@ -12,15 +13,13 @@ const AboutMe = () => {
 					className="flex flex-col-reverse lg:flex-row d:mb-8 lg:py-8 justify-between lg:text-left"
 					data-aos="fade-up"
 				>
-					<div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center overflow-hidden">
-						{/* <div className="rounded-t float-right bg-gray-500 text-white w-full aspect-square flex justify-center items-center">
-							Picture of Pursley Farm
-						</div> */}
-						<img
+					<div className="lg:w-1/2 aspect-square flex flex-col items-center lg:mx-4 justify-center overflow-hidden">
+						{/* <img
 							alt="card img"
-							className="rounded-t float-right object-cover h-full hover:scale-110 transition-all duration-500 "
+							className=" rounded-t float-right object-cover h-full hover:scale-110 transition-all duration-500 "
 							src={HamishWorking}
-						/>
+						/> */}
+						<AboutMeGallery />
 					</div>
 					<div
 						className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8"
