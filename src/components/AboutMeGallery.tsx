@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from "react";
+import Working from "../assets/aboutMeSection/hamish-working.png";
+import Planting from "../assets/aboutMeSection/hamish-planting.png";
+import HarvestTwo from "../assets/aboutMeSection/harverst2.png";
+import HarvestOne from "../assets/aboutMeSection/harvest.png";
+import Sheep from "../assets/aboutMeSection/sheep.png";
 
-const images = [
-	"https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-	"https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-	"https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-];
+const images = [Working, Sheep, HarvestTwo, Planting, HarvestOne];
 
 function AboutMeGallery() {
 	const [index, setIndex] = useState(0);
@@ -19,7 +20,7 @@ function AboutMeGallery() {
 	}, [index]);
 
 	return (
-		<div className="slideshow max-w-[500px] h-[500px] relative">
+		<div className="slideshow max-w-[500px] h-[500px] relative ">
 			{images.map((image, i) => (
 				<img
 					key={i}

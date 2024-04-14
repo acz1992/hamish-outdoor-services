@@ -10,7 +10,7 @@ const AboutMe = () => {
 				id="about"
 			>
 				<div
-					className="flex flex-col-reverse lg:flex-row d:mb-8 lg:py-8 justify-between lg:text-left"
+					className="flex flex-col-reverse lg:flex-row d:mb-8 lg:py-8 justify-between lg:text-left lg:gap-12"
 					data-aos="fade-up"
 				>
 					<div className="lg:w-1/2 aspect-square flex flex-col items-center lg:mx-4 justify-center overflow-hidden">
