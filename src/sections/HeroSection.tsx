@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import NavBar from "../components/Navigation";
 import Hamish from "../assets/heroSection/hamish-outdoors.jpg";
+import { HashLink } from "react-router-hash-link";
 
 const HeroSection = () => {
 	return (
@@ -44,8 +44,7 @@ const HeroSection = () => {
 							{/* Hero Text */}
 							<div className="hero-text px-4 md:px-0 self-center	">
 								<h1 className="mb-5 my-6 md:my-0 md:text-5xl text-3xl font-bold text-lightText">
-									Suspendisse faucibus interdum posuere lorem
-									ipsum dolor sit
+									Hamish's Outdoor Services
 								</h1>
 								<div className="text-xl font-semibold tracking-tight mb-5 text-zinc-100">
 									Mollis nunc sed id semper risus in hendrerit
@@ -53,8 +52,8 @@ const HeroSection = () => {
 									auctor augue
 								</div>
 								<div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
-									<Link
-										to="/contact"
+									<HashLink
+										to="/#contact"
 										className="text-white button-one   inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
 									>
 										Find out more
@@ -70,7 +69,7 @@ const HeroSection = () => {
 												clipRule="evenodd"
 											></path>
 										</svg>
-									</Link>
+									</HashLink>
 								</div>
 							</div>
 						</div>

@@ -32,7 +32,7 @@ const NavLinks: React.FC<NavLinksProps> = ({ setIsOpen }) => {
 			{links.map(({ text, to, smooth }) => (
 				<HashLink
 					key={to}
-					className="px-4 bg-white font-bold  hover:text-gray-500"
+					className="px-4 bg-white font-bold text-lg hover:text-gray-500"
 					smooth={smooth}
 					to={to}
 					onClick={handleClick}

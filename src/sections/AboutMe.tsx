@@ -1,5 +1,6 @@
 /* import img from "../images/Web-developer.svg"; */
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const AboutMe = () => {
 	return (
@@ -46,8 +47,8 @@ const AboutMe = () => {
 								ac ut consequat semper viverra nam libero
 							</p>
 						</div>
-						<Link
-							to="/contact"
+						<HashLink
+							to="/#contact"
 							className="button-one text-white inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group"
 						>
 							Get in touch
@@ -63,7 +64,7 @@ const AboutMe = () => {
 									clipRule="evenodd"
 								></path>
 							</svg>
-						</Link>
+						</HashLink>
 					</div>
 				</div>
 			</div>
