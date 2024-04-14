@@ -1,5 +1,5 @@
 import React from "react";
-
+import TestimonialCarousel from "../components/TestimonialCarousel";
 /* const testimonialImage: React.CSSProperties = {
 	height: "10rem",
 	width: "auto",
@@ -10,9 +10,9 @@ import React from "react";
 
 const Testimonials: React.FC = () => {
 	return (
-		<div className="mt-8 bg-gray-100" id="testimonials">
+		<div className="pb-6 bg-gray-100" id="testimonials">
 			<section data-aos="fade-up">
-				<div className="my-4 py-4">
+				<div className="mt-4 py-4">
 					<h2 className="my-2 text-center text-3xl text-primaryGreen uppercase font-bold">
 						Testimonials
 					</h2>
@@ -24,9 +24,12 @@ const Testimonials: React.FC = () => {
 					</h2>
 				</div>
 
-				<div className="p-16" data-aos="fade-in" data-aos-delay="600">
-					<div className="grid sm:grid-cols-3 lg:grid-cols-3">
-						{/* {reviewProfilePics.map((reviewProfilePic, index) => (
+				<div
+					className="pt-4 p-10 "
+					data-aos="fade-in"
+					data-aos-delay="600"
+				>
+					{/* {reviewProfilePics.map((reviewProfilePic, index) => (
 							<div
 								key={index}
 								style={testimonialImage}
@@ -38,7 +41,7 @@ const Testimonials: React.FC = () => {
 								/>
 							</div>
 						))} */}
-					</div>
+					<TestimonialCarousel />
 				</div>
 			</section>
 		</div>
