@@ -4,10 +4,15 @@ import { HashLink } from "react-router-hash-link";
 interface NavLink {
 	text: string;
 	to: string;
-	smooth?: boolean;
+	smooth: boolean;
+	onClick?: () => void; // Add onClick prop
 }
 
-const NavLinks: React.FC = () => {
+interface NavLinksProps {
+	setIsOpen?: React.Dispatch<React.SetStateAction<boolean>>; // Define prop for setIsOpen
+}
+
+const NavLinks: React.FC<NavLinksProps> = ({ setIsOpen }) => {
 	const links: NavLink[] = [
 		{ text: "About Me", to: "/#about", smooth: true },
 		{ text: "Services", to: "/#services", smooth: true },
@@ -15,6 +20,12 @@ const NavLinks: React.FC = () => {
 		{ text: "Testimonials", to: "/#testimonials", smooth: true },
 		{ text: "Contact Me", to: "/#contact", smooth: true },
 	];
+
+	const handleClick = () => {
+		if (setIsOpen) {
+			setIsOpen(false);
+		}
+	};
 
 	return (
 		<>
@@ -24,6 +35,7 @@ const NavLinks: React.FC = () => {
 					className="px-4 bg-white font-bold  hover:text-gray-500"
 					smooth={smooth}
 					to={to}
+					onClick={handleClick}
 				>
 					{text}
 				</HashLink>

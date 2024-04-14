@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import NavLinks from "./NavLinks";
 import { HashLink } from "react-router-hash-link";
 
@@ -6,6 +6,7 @@ const Navigation: React.FC = () => {
 	const [top, setTop] = useState<boolean>(true);
 	const [showHashLink, setShowHashLink] = useState<boolean>(true);
 	const [isOpen, setIsOpen] = useState<boolean>(false);
+	const navigationRef = useRef<HTMLDivElement>(null);
 
 	const handleClick = () => {
 		setIsOpen(!isOpen);
@@ -24,8 +25,26 @@ const Navigation: React.FC = () => {
 		return () => window.removeEventListener("scroll", scrollHandler);
 	}, []);
 
+	useEffect(() => {
+		const handleOutsideClick = (event: MouseEvent) => {
+			if (
+				navigationRef.current &&
+				!navigationRef.current.contains(event.target as Node)
+			) {
+				setIsOpen(false);
+			}
+		};
+
+		document.body.addEventListener("click", handleOutsideClick);
+
+		return () => {
+			document.body.removeEventListener("click", handleOutsideClick);
+		};
+	}, []);
+
 	return (
 		<nav
+			ref={navigationRef}
 			className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${
 				!top && "shadow-lg"
 			}`}
@@ -78,7 +97,7 @@ const Navigation: React.FC = () => {
 						}`}
 					>
 						<div className="flex flex-col space-y-6">
-							<NavLinks />
+							<NavLinks setIsOpen={setIsOpen} />
 						</div>
 					</div>
 				</div>
