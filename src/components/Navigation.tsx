@@ -66,7 +66,7 @@ const Navigation: React.FC = () => {
 				</div>
 				<div className="group flex flex-col items-center">
 					<button
-						className="p-2 rounded-lg lg:hidden text-darkText"
+						className="p-2 rounded-lg lg:hidden text-darkText cursor-pointer transition-transform transform-gpu hover:scale-110"
 						onClick={handleClick}
 					>
 						<svg
