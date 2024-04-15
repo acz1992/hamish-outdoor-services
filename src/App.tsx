@@ -14,13 +14,16 @@ function App() {
 				once: true,
 				duration: 1000,
 				easing: "ease-out-cubic",
-				disable: "mobile",
+				disable: window.innerWidth < 1024,
 			});
 		};
 
-		window.addEventListener("load", () => {
-			aos_init();
-		});
+		aos_init(); // Call it directly, no need to wait for window load event
+
+		// Clean up on component unmount
+		return () => {
+			AOS.refresh(); // Reset AOS when component unmounts
+		};
 	}, []);
 
 	return (
