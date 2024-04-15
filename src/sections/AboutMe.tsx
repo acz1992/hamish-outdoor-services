@@ -1,8 +1,10 @@
 import { HashLink } from "react-router-hash-link";
 import AboutMeGallery from "../components/AboutMeGallery";
-/* import HamishWorking from "../assets/aboutMeSection/hamish-working.png";
- */
+import aboutMeSection from "../data/aboutMeSection.json";
+
 const AboutMe = () => {
+	const { heading, pGrowingUp, pHobbies } = aboutMeSection;
+
 	return (
 		<>
 			<div
@@ -22,27 +24,21 @@ const AboutMe = () => {
 						<AboutMeGallery />
 					</div>
 					<div
-						className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8"
+						className="flex-col my-4 text-balance text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8"
 						data-aos="zoom-in"
 						data-aos-delay="500"
 					>
 						<h3 className="text-3xl text-primaryGreen font-bold">
-							I've always cherished the countryside, drawn to its
-							beauty and endless opportunities for outdoor
-							adventures.
+							{heading}
 						</h3>
 						<div>
 							<p className="my-3 text-xl text-main font-semibold">
-								Growing up on a farm near London developed my
-								skills, from tending crops, helping with the
-								yearly harvets to mastering farm equipment.
+								{pGrowingUp}
 							</p>
 						</div>
 						<div>
 							<p className="my-3 text-xl text-main font-semibold">
-								Beyond work, my hobbies embrace
-								nature—gardening, caring for our selection of
-								animals, and crafting woodwork.
+								{pHobbies}
 							</p>
 						</div>
 						<HashLink
