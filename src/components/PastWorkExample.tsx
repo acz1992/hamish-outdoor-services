@@ -16,16 +16,16 @@ const PastWorkExample: React.FC<PastWorkExampleProps> = ({
 			<div className="m-2 text-justify flex flex-col items-center text-sm">
 				<img
 					alt="card img"
-					className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+					className="rounded-t w-full aspect-square object-cover"
 					src={img}
 				/>
-				<h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">
+				<h4 className="font-semibold my-2 text-2xl md:text-2xl text-center h-12">
 					{title}
 				</h4>
-				<p className="text-md font-medium leading-5 h-auto md:h-48">
+				<p className="text-lg font-medium leading-5 h-auto ">
 					{description}
 				</p>
-				<div className="flex justify-center my-4"></div>
+				<div className="flex justify-center my-2"></div>
 			</div>
 		</div>
 	);

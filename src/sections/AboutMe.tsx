@@ -27,22 +27,22 @@ const AboutMe = () => {
 						data-aos-delay="500"
 					>
 						<h3 className="text-3xl text-primaryGreen font-bold">
-							Orci eu lobortis elementum nibh tellus molestie nunc
-							non blandit massa enim nec dui
+							I've always cherished the countryside, drawn to its
+							beauty and endless opportunities for outdoor
+							adventures.
 						</h3>
 						<div>
 							<p className="my-3 text-xl text-main font-semibold">
-								Pretium vulputate sapien nec sagittis aliquam
-								malesuada bibendum arcu vitae elementum
-								curabitur vitae nunc sed velit dignissim sodales
-								ut
+								Growing up on a farm near London developed my
+								skills, from tending crops, helping with the
+								yearly harvets to mastering farm equipment.
 							</p>
 						</div>
 						<div>
 							<p className="my-3 text-xl text-main font-semibold">
-								Amet mattis vulputate enim nulla aliquet
-								porttitor lacus luctus accumsan tortor posuere
-								ac ut consequat semper viverra nam libero
+								Beyond work, my hobbies embrace
+								nature—gardening, caring for our selection of
+								animals, and crafting woodwork.
 							</p>
 						</div>
 						<HashLink

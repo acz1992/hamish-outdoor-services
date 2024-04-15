@@ -1,44 +1,45 @@
 import PastWorkExample from "../components/PastWorkExample";
-/* import img from "../assets/services/xxx.xx";
-import img2 from "../assets/services/xxx.xx";
-import img3 from "../assets/services/xxx.xx";
-import img4 from "../assets/services/xxx.xx"; */
+import Carpark from "../assets/pastWorkSection/carpark.jpg";
+import Hut from "../assets/pastWorkSection/hut.png";
+import TreeRemoval from "../assets/pastWorkSection/tree-removal.jpg";
+import Hedge from "../assets/pastWorkSection/hedge-trimming.jpg";
 
 interface PastWork {
+	img: string;
 	title: string;
 	description: string;
 }
 
 const pastWorkData: PastWork[] = [
 	{
-		/* img: img, */
-		title: "Example One of Past Work",
+		img: Carpark,
+		title: "Carpark Resurfacing",
 		description:
-			"Our Business Management System is a robust and easily scalable system that streamlines business operations, increase efficiency, and ultimately drive growth and profitability for your business. With features such as employee management, finance control, and many more modules to effectively manage all aspects of a business. All data is stored in the cloud and as such it is easily accessible from all devices and from any location.",
+			"Carpark of a local business resurfaced using an exacavator to dig up the uneven ground, and a steamroller to even it out.",
 	},
 	{
-		/* img: img, */
-		title: "Example Two of Past Work",
+		img: Hut,
+		title: "Shepherds Hut",
 		description:
-			"Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis.",
+			"Handmade-produced shepherds hut for a Glamping company - as per the requested specs of the client - using the best sourced materials",
 	},
 	{
-		/* img: img, */
-		title: "Example Three of Past Work",
+		img: TreeRemoval,
+		title: "Tree Removal",
 		description:
-			"Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis.",
+			"We used a mobile eleveated work platform to prune the upper branches, before using a chainsaw to fell multiple trees from a property.",
 	},
 	{
-		/* img: img, */
-		title: "Example Four of Past Work",
+		img: Hedge,
+		title: "Hedge Trimming",
 		description:
-			"Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis.",
+			"Using a mounted industrial hedge trimmer, we were able to give the hedges of a local squash club the tidy up they needed.",
 	},
 ];
 
 const PastWork = () => {
 	return (
-		<div className="my-4 py-4 bg-primaryGreen" id="past-work">
+		<div className="my-4 py-10 bg-primaryGreen" id="past-work">
 			<h2 className="my-2 text-center text-3xl  uppercase font-bold text-titleTwo">
 				Examples of Past Work
 			</h2>
@@ -50,7 +51,7 @@ const PastWork = () => {
 				<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
 					{pastWorkData.map((pastWork, index) => (
 						<PastWorkExample
-							/* img={pastWork.img} */
+							img={pastWork.img}
 							key={index}
 							title={pastWork.title}
 							description={pastWork.description}
