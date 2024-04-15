@@ -1,5 +1,5 @@
 import NavBar from "../components/Navigation";
-import Hamish from "../assets/heroSection/hamish-outdoors.jpg";
+import Hamish from "/assets/heroSection/hamish-outdoors.jpg";
 import { HashLink } from "react-router-hash-link";
 import heroSection from "../data/heroSection.json";
 

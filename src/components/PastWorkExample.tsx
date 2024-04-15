@@ -1,5 +1,5 @@
 interface PastWorkExampleProps {
-	img?: string;
+	img: string;
 	title: string;
 	description: string;
 }

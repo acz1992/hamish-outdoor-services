@@ -1,21 +1,21 @@
 [
 	{
-		"img": "src/assets/pastWorkSection/carpark.jpg",
+		"img": "/assets/pastWorkSection/carpark.jpg",
 		"title": "Carpark Resurfacing",
 		"description": "Carpark of a local business resurfaced using an exacavator to dig up the uneven ground, and a steamroller to even it out."
 	},
 	{
-		"img": "src/assets/pastWorkSection/hut.png",
+		"img": "/assets/pastWorkSection/hut.png",
 		"title": "Shepherds Hut",
 		"description": "Handmade-produced shepherds hut for a Glamping company - as per the requested specs of the client - using the best sourced materials"
 	},
 	{
-		"img": "src/assets/pastWorkSection/tree-removal.jpg",
+		"img": "/assets/pastWorkSection/tree-removal.jpg",
 		"title": "Tree Removal",
 		"description": "We used a mobile eleveated work platform to prune the upper branches, before using a chainsaw to fell multiple trees from a property."
 	},
 	{
-		"img": "src/assets/pastWorkSection/hedge-trimming.jpg",
+		"img": "/assets/pastWorkSection/hedge-trimming.jpg",
 		"title": "Hedge Trimming",
 		"description": "Using a mounted industrial hedge trimmer, we were able to give the hedges of a local squash club the tidy up they needed."
 	}
