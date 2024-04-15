@@ -43,13 +43,13 @@ const HeroSection = () => {
 							/>
 							{/* Hero Text */}
 							<div className="hero-text px-4 md:px-0 self-center	">
-								<h1 className="mb-5 my-6 md:my-0 md:text-5xl text-3xl font-bold text-lightText">
+								<h1 className="mb-5 my-6 md:my-0 md:text-5xl text-3xl lg:text-8xl font-bold text-lightText">
 									Hamish's Outdoor Services
 								</h1>
-								<div className="text-xl font-semibold tracking-tight mb-5 text-zinc-100">
-									Mollis nunc sed id semper risus in hendrerit
-									gravida rutrum quisque non tellus orci ac
-									auctor augue
+								<div className="text-xl lg:text-3xl font-semibold tracking-tight mb-5 text-zinc-100">
+									Providing expert, honest, and friendly
+									service, offering custom solutions without
+									breaking the bank
 								</div>
 								<div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
 									<HashLink

@@ -1,8 +1,10 @@
 import { HashLink } from "react-router-hash-link";
 import AboutMeGallery from "../components/AboutMeGallery";
-/* import HamishWorking from "../assets/aboutMeSection/hamish-working.png";
- */
+import aboutMeSection from "../data/aboutMeSection.json";
+
 const AboutMe = () => {
+	const { heading, pGrowingUp, pHobbies } = aboutMeSection;
+
 	return (
 		<>
 			<div
@@ -22,27 +24,21 @@ const AboutMe = () => {
 						<AboutMeGallery />
 					</div>
 					<div
-						className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8"
+						className="flex-col my-4 text-balance text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8"
 						data-aos="zoom-in"
 						data-aos-delay="500"
 					>
 						<h3 className="text-3xl text-primaryGreen font-bold">
-							Orci eu lobortis elementum nibh tellus molestie nunc
-							non blandit massa enim nec dui
+							{heading}
 						</h3>
 						<div>
 							<p className="my-3 text-xl text-main font-semibold">
-								Pretium vulputate sapien nec sagittis aliquam
-								malesuada bibendum arcu vitae elementum
-								curabitur vitae nunc sed velit dignissim sodales
-								ut
+								{pGrowingUp}
 							</p>
 						</div>
 						<div>
 							<p className="my-3 text-xl text-main font-semibold">
-								Amet mattis vulputate enim nulla aliquet
-								porttitor lacus luctus accumsan tortor posuere
-								ac ut consequat semper viverra nam libero
+								{pHobbies}
 							</p>
 						</div>
 						<HashLink
