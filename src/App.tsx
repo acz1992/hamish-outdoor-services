@@ -14,10 +14,7 @@ function App() {
 				once: true,
 				duration: 1000,
 				easing: "ease-out-cubic",
-				disable: function () {
-					const maxWidth = 800;
-					return window.innerWidth < maxWidth;
-				},
+				disable: "mobile",
 			});
 		};
 
