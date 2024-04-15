@@ -2,9 +2,9 @@ import TestimonialCarousel from "../components/TestimonialCarousel";
 
 const Testimonials: React.FC = () => {
 	return (
-		<div className="pb-6 bg-gray-100" id="testimonials">
+		<div className="pb-4 bg-gray-100" id="testimonials">
 			<section data-aos="fade-up">
-				<div className="mt-4 py-4">
+				<div className="mt-4 p-4">
 					<h2 className="my-2 text-center text-3xl text-primaryGreen uppercase font-bold">
 						Testimonials
 					</h2>
@@ -16,11 +16,7 @@ const Testimonials: React.FC = () => {
 					</h2>
 				</div>
 
-				<div
-					className="pt-4 p-10 "
-					data-aos="fade-in"
-					data-aos-delay="600"
-				>
+				<div className="pt-4" data-aos="fade-in" data-aos-delay="600">
 					<TestimonialCarousel />
 				</div>
 			</section>
