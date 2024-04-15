@@ -12,50 +12,34 @@ const servicesData = [
 	{
 		icon: <GiGardeningShears />,
 		title: "General Gardening",
-		/* description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 	{
 		icon: <IoFlowerSharp />,
 		title: "Landscaping",
-		/* description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 	{
 		icon: <FaTree />,
 		title: "Tree Removal",
-		/* description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 	{
 		icon: <TbFence />,
 		title: "Fence Repair",
-		/* description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 	{
 		icon: <FaLeaf />,
 		title: "Hedge Trimming",
-		/* description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 	{
 		icon: <GiSteamBlast />,
 		title: "Sandblasting",
-		/* description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 	{
 		icon: <GiEcology />,
 		title: "Compost Delivery",
-		/* description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 	{
 		icon: <GiWoodPile />,
 		title: "Kiln Dried Logs",
-		/* description:
-			"Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.", */
 	},
 ];
 
@@ -87,7 +71,6 @@ const Services = () => {
 								key={index}
 								icon={service.icon}
 								title={service.title}
-								/* description={service.description} */
 							/>
 						))}
 					</div>

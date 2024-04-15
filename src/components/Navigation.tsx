@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import NavLinks from "./NavLinks";
 import { HashLink } from "react-router-hash-link";
 

@@ -1,12 +1,4 @@
-import React from "react";
 import TestimonialCarousel from "../components/TestimonialCarousel";
-/* const testimonialImage: React.CSSProperties = {
-	height: "10rem",
-	width: "auto",
-	mixBlendMode: "color-burn",
-}; */
-
-/* const reviewProfilePics = []; */
 
 const Testimonials: React.FC = () => {
 	return (
@@ -29,18 +21,6 @@ const Testimonials: React.FC = () => {
 					data-aos="fade-in"
 					data-aos-delay="600"
 				>
-					{/* {reviewProfilePics.map((reviewProfilePic, index) => (
-							<div
-								key={index}
-								style={testimonialImage}
-								className="overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100"
-							>
-								<img
-									src={reviewProfilePic}
-									alt={`client-${index}`}
-								/>
-							</div>
-						))} */}
 					<TestimonialCarousel />
 				</div>
 			</section>

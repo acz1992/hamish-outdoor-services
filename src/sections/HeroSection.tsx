@@ -1,8 +1,10 @@
 import NavBar from "../components/Navigation";
 import Hamish from "../assets/heroSection/hamish-outdoors.jpg";
 import { HashLink } from "react-router-hash-link";
+import heroSection from "../data/heroSection.json";
 
 const HeroSection = () => {
+	const { byline } = heroSection;
 	return (
 		<>
 			<div className="relative heroSection" id="hero-section">
@@ -47,9 +49,7 @@ const HeroSection = () => {
 									Hamish's Outdoor Services
 								</h1>
 								<div className="text-xl lg:text-3xl font-semibold tracking-tight mb-5 text-zinc-100">
-									Providing expert, honest, and friendly
-									service, offering custom solutions without
-									breaking the bank
+									{byline}
 								</div>
 								<div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
 									<HashLink

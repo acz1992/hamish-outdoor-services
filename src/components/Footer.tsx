@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
@@ -7,9 +6,9 @@ const Footer: React.FC = () => {
 		<>
 			<footer>
 				<div className="footer max-w-full px-4 sm:px-6 bg-primaryGreen border-t border-b py-30 text-white">
-					{/* Top area: Blocks */}
+					{/* Top Area */}
 					<div className="flex justify-around py-2 md:py-4 border-t border-gray-200 ">
-						{/* Links block */}
+						{/* Website Links */}
 						<div className="px-4">
 							<h6 className="text-white text-xl font-bold mb-2">
 								LINKS
@@ -45,7 +44,7 @@ const Footer: React.FC = () => {
 							</ul>
 						</div>
 
-						{/* Social Media block */}
+						{/* Social Media */}
 						<div className="text-center  font-bold uppercase text-white">
 							<div className="text-xl mb-2">
 								Social Media Links
