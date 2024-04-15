@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
-import Working from "../assets/aboutMeSection/hamish-working.png";
-import Planting from "../assets/aboutMeSection/hamish-planting.png";
-import HarvestTwo from "../assets/aboutMeSection/harverst2.png";
-import HarvestOne from "../assets/aboutMeSection/harvest.png";
-import Sheep from "../assets/aboutMeSection/sheep.png";
+import Working from "/assets/aboutMeSection/hamish-working.png";
+import Planting from "/assets/aboutMeSection/hamish-planting.png";
+import HarvestTwo from "/assets/aboutMeSection/harverst2.png";
+import HarvestOne from "/assets/aboutMeSection/harvest.png";
+import Sheep from "/assets/aboutMeSection/sheep.png";
 
 const images = [Working, Sheep, HarvestTwo, Planting, HarvestOne];
 
