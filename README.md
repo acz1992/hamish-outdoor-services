@@ -1,12 +1,25 @@
-React Router Hash Link
-https://www.npmjs.com/package/react-router-hash-link
-React Router's issue of not scrolling to #hash-fragments when using the <Link> component to navigate.
+# Hamish's Outdoor Servces
 
-Go through Hamish company Facebook, find best pics, short description.
+## About
 
--   Create seperate data file for this, so its easier to update and easier to read
+### Description
 
-About me Picture:
--Use react-multi-carousel package from Testimonials. Try and make one that fits into div, auto,
+Hamish is a self-taught tradesman and a versatile individual with a diverse skill set. Growing up on a farm, he gained extensive experience in outdoor activities and general do-it-yourself projects. He leverages this expertise to offer a personable service throughout Hertfordshire and surrounding areas, addressing various outdoor service requirements.
+### The Mission
 
-https://github.com/Silver2er0/MLD-B2B/blob/main/src/components/Portfolio.js
+He required a professional website designed to capture attention with an appropriate color scheme and Hero Section. It needed to reflect his affinity for the outdoors and do-it-yourself ethos, while also succinctly outlining his diverse range of services. The website aimed to offer a glimpse into the wide variety of services Hamish provides and provide a means for potential customers to get in touch with him.
+
+## Tech / Resources
+
+### Stack
+
+This website project uses React, TypeScript, and Vite to enhance development efficiency, ensure code reliability with strong typing, and optimize performance for a seamless user experience.
+
+### Resources
+
+- **React Router Hash Link**: A React Router extension facilitating smooth scrolling to hash-linked sections within a page.
+- **React-router-dom**: A package for routing in React applications, enabling navigation between different components while maintaining a single-page application structure.
+- **React-multi-carousel**: A customizable React carousel component that supports multiple items per slide, infinite looping, and various animation effects.
+- **AOS**: A JavaScript library for animating elements as they scroll into view, adding engaging visual effects to web pages.
+- **Smooth-scroll**: A lightweight JavaScript library for creating smooth scrolling behaviour on anchor links within a webpage.
+- **React-icons**: A library providing a collection of popular icons as React components, allowing easy integration of icons into React applications.
