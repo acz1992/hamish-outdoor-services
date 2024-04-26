@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 
 const Navigation: React.FC = () => {
 	const [top, setTop] = useState<boolean>(true);
-	const [showHashLink, setShowHashLink] = useState<boolean>(true);
+	const [showHashLink, setShowHashLink] = useState<boolean>(false);
 	const [isOpen, setIsOpen] = useState<boolean>(false);
 	const navigationRef = useRef<HTMLDivElement>(null);
 

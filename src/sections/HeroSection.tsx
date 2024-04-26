@@ -1,4 +1,3 @@
-import NavBar from "../components/Navigation";
 import Hamish from "/assets/heroSection/hamish-outdoors.jpg";
 import { HashLink } from "react-router-hash-link";
 import heroSection from "../data/heroSection.json";
@@ -20,9 +19,6 @@ const HeroSection = () => {
 						clipPath: "polygon(0 0, 100% 20%, 100% 100%, 0% 100%)",
 					}}
 				></div>
-				<div>
-					<NavBar />
-				</div>
 
 				<div
 					className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6 relative z-10"
